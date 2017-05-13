@@ -1,12 +1,12 @@
 
-function Note(position, person, colorAcc) {
+function Note(position, initStatus, colorAcc) {
 	this.x = position[0];
 	this.y = position[1];
 
 	this.radius = 30;
 	this.offset = 8;
 
-	this.state = false;
+	this.state = initStatus;
 
 	this.numberOfUsers = 0;
 
@@ -16,6 +16,11 @@ function Note(position, person, colorAcc) {
 	this.selectColor = colorAcc;//color('#80deea');
 
 	this.draw = function () {
+
+		noStroke();
+		noFill();
+		fill(this.backgroundColor);
+		ellipse(this.x, this.y, this.radius, this.radius)
 
 		if (this.state==true) {
 			noFill();
