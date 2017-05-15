@@ -11,9 +11,9 @@ function TravelLine(synth) {
 		strokeWeight(4);
 		stroke(230, 50, 1);
 
-		//console.log(this.currentValue, this.synth.xPositions[this.currentValue]);
+		//console.log(this.synth.xPositions[this.currentValue], 0, this.synth.xPositions[this.currentValue], this.synth.relativeHeight);
 
-		line(this.synth.xPositions[this.currentValue], 0, this.synth.xPositions[this.currentValue], this.synth.relativeHight);
+		line(this.synth.xPositions[this.currentValue], 0, this.synth.xPositions[this.currentValue], this.synth.relativeHeight);
 		
 	}
 
@@ -23,7 +23,7 @@ function TravelLine(synth) {
 
 		for (var i=0;i<12;i++) {
 			var note = this.synth.notes[runner];
-			console.log(runner);	
+			//console.log(runner);	
 			runner += (10 + this.currentValue);
 
 		}

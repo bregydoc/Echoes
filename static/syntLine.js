@@ -13,6 +13,8 @@ function Synth(size) {
 	this.relativeWidth = size[0];
 	this.relativeHeight = size[1];
 
+	//console.log(this.relativeWidth, " - ", this.relativeHeight);
+
 	this.xPositions = []
 
 	this.colors = ['#33FFCA', '#06DE55', '#6BE306', '#ECFF00', '#FF3200', '#00FF00', '#00E4FF', '#DB56EE', '#56EEB2', '#8DCBFF', '#FC52FF', '#9152FF'];
@@ -49,13 +51,14 @@ function Synth(size) {
 	console.log(this.notes);
 	//console.log(this.xPositions);
 	this.updateState = function (){
-		
+		var ifAllOk = false;
 		if (typeof MixerState == 'undefined') {
 			console.log("Nothing")
 		}else{
 
 			if (typeof(MixerState.CurrentPlaying) != 'undefined') {
-				return MixerState.CurrentPlaying
+				//console.log("Returned...", MixerState.CurrentPlaying);
+				ifAllOk = true;
 			}
 
 			//console.log(MixerState.CurrentState);
@@ -75,6 +78,9 @@ function Synth(size) {
 
  		//console.log(finalState);
 		LocalState = finalState;
+		if (ifAllOk==true) {
+			return MixerState.CurrentPlaying;
+		}
 	}
 
 	this.draw = function() {

@@ -24,7 +24,8 @@ function draw() {
 	synth.draw();
 	timeLine.draw(int(currentPos));
 	currentPos = synth.updateState();	
-	//timeLine.getCurrentPlay();
+	timeLine.getCurrentPlay();
+
 }
 
 function mouseClicked() {
