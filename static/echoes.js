@@ -3,16 +3,28 @@
  */
 
 var synth;
+var timeLine;
+
+var currentPos = 0;
 
 function setup() {
-	createCanvas(1000, 640);
+	createCanvas(1500, 800);
 
 	synth = new Synth([width, height]);
+	timeLine = new TravelLine(synth);
 
+	synth.updateState();	
+
+	//console.log(synth.xPositions);
 }
 
 function draw() {
+	background(255);
+
 	synth.draw();
+	timeLine.draw(int(currentPos));
+	currentPos = synth.updateState();	
+	//timeLine.getCurrentPlay();
 }
 
 function mouseClicked() {
