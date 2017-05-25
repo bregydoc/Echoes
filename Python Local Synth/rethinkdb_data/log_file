@@ -1,0 +1,92 @@
+2017-05-06T06:41:23.985553671 0.024693s notice: Recursively removing directory /home/bregy/PycharmProjects/CCProject/rethinkdb_data/tmp
+2017-05-06T06:41:24.005678496 0.044817s notice: Initializing directory /home/bregy/PycharmProjects/CCProject/rethinkdb_data
+2017-05-06T06:41:24.005769037 0.044908s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/bregy/PycharmProjects/CCProject/rethinkdb_data' did not already exist or is empty.)
+2017-05-06T06:41:24.005824352 0.044963s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-05-06T06:41:24.015682524 0.054823s notice: Running on Linux 4.4.0-77-generic x86_64
+2017-05-06T06:41:24.015728646 0.054867s notice: Loading data from directory /home/bregy/PycharmProjects/CCProject/rethinkdb_data
+2017-05-06T06:41:24.044009039 0.083148s info: Automatically using cache size of 3546 MB
+2017-05-06T06:41:24.045113083 0.084252s notice: Listening for intracluster connections on port 29015
+2017-05-06T06:41:24.049528890 0.088668s notice: Listening for client driver connections on port 28015
+2017-05-06T06:41:24.049624966 0.088764s notice: Listening for administrative HTTP connections on port 8080
+2017-05-06T06:41:24.049627411 0.088766s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-06T06:41:24.049627744 0.088766s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-06T06:41:24.049630756 0.088769s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-06T06:41:24.049632748 0.088771s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-06T06:41:24.049646451 0.088785s notice: Server ready, "TuringLambdaMachine_aen" 73e777a5-8f5e-4325-87a9-680d6136f673
+2017-05-06T06:41:46.359668136 22.398807s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2017-05-06T06:41:46.359775804 22.398914s notice: Shutting down client connections...
+2017-05-06T06:41:46.359813484 22.398952s notice: All client connections closed.
+2017-05-06T06:41:46.359814735 22.398953s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-05-06T06:41:46.367641934 22.406781s notice: Storage engine shut down.
+2017-05-06T06:41:52.256715978 0.024915s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-05-06T06:41:52.263976447 0.032177s notice: Running on Linux 4.4.0-77-generic x86_64
+2017-05-06T06:41:52.264021886 0.032220s notice: Loading data from directory /home/bregy/PycharmProjects/CCProject/rethinkdb_data
+2017-05-06T06:41:52.276522072 0.044721s info: Automatically using cache size of 3499 MB
+2017-05-06T06:41:52.277233192 0.045432s notice: Listening for intracluster connections on port 29015
+2017-05-06T06:41:52.278044477 0.046243s notice: Listening for client driver connections on port 28015
+2017-05-06T06:41:52.278141361 0.046340s notice: Listening for administrative HTTP connections on port 8080
+2017-05-06T06:41:52.278142888 0.046341s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-06T06:41:52.278144135 0.046342s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-06T06:41:52.278145938 0.046344s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-06T06:41:52.278148826 0.046347s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-06T06:41:52.278151108 0.046349s notice: Server ready, "TuringLambdaMachine_aen" 73e777a5-8f5e-4325-87a9-680d6136f673
+2017-05-06T06:44:25.504339811 153.272538s info: Table e9eced5f-39f5-432e-a7be-3100ef09383a: Starting a new Raft election for term 1.
+2017-05-06T06:44:25.504525893 153.272724s info: Table e9eced5f-39f5-432e-a7be-3100ef09383a: Added replica on this server.
+2017-05-06T06:44:25.508788712 153.276987s info: Table e9eced5f-39f5-432e-a7be-3100ef09383a: This server is Raft leader for term 1. Latest log index is 0.
+2017-05-06T12:21:25.629635313 17762.574327s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2017-05-10T18:47:08.149676885 0.029715s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-05-10T18:47:08.152122241 0.032163s notice: Running on Linux 4.4.0-77-generic x86_64
+2017-05-10T18:47:08.152176703 0.032215s notice: Loading data from directory /home/bregy/PycharmProjects/CCProject/rethinkdb_data
+2017-05-10T18:47:08.171048744 0.051087s info: Automatically using cache size of 4886 MB
+2017-05-10T18:47:08.172205159 0.052243s notice: Listening for intracluster connections on port 29015
+2017-05-10T18:47:08.196399180 0.076438s notice: Listening for client driver connections on port 28015
+2017-05-10T18:47:08.196747182 0.076785s notice: Listening for administrative HTTP connections on port 8080
+2017-05-10T18:47:08.196748373 0.076786s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-10T18:47:08.196751674 0.076790s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-10T18:47:08.196753650 0.076792s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-10T18:47:08.196764229 0.076802s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-10T18:47:08.196766756 0.076805s notice: Server ready, "TuringLambdaMachine_aen" 73e777a5-8f5e-4325-87a9-680d6136f673
+2017-05-10T18:47:09.881501994 1.761540s info: Table e9eced5f-39f5-432e-a7be-3100ef09383a: Starting a new Raft election for term 2.
+2017-05-10T18:47:09.890856726 1.770895s info: Table e9eced5f-39f5-432e-a7be-3100ef09383a: This server is Raft leader for term 2. Latest log index is 3.
+2017-05-13T17:29:14.863019814 3.216497s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-05-13T17:29:14.866735214 3.220214s notice: Running on Linux 4.4.0-77-generic x86_64
+2017-05-13T17:29:14.866774278 3.220251s notice: Loading data from directory /home/bregy/PycharmProjects/CCProject/rethinkdb_data
+2017-05-13T17:29:14.886639507 3.240128s info: Automatically using cache size of 4281 MB
+2017-05-13T17:29:14.887829414 3.241307s notice: Listening for intracluster connections on port 29015
+2017-05-13T17:29:14.913390696 3.266868s notice: Listening for client driver connections on port 28015
+2017-05-13T17:29:14.913688919 3.267166s notice: Listening for administrative HTTP connections on port 8080
+2017-05-13T17:29:14.913689865 3.267167s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-13T17:29:14.913690379 3.267167s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-13T17:29:14.913692310 3.267169s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-13T17:29:14.913699644 3.267177s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-13T17:29:14.913701374 3.267178s notice: Server ready, "TuringLambdaMachine_aen" 73e777a5-8f5e-4325-87a9-680d6136f673
+2017-05-13T17:29:16.562718526 4.916196s info: Table e9eced5f-39f5-432e-a7be-3100ef09383a: Starting a new Raft election for term 3.
+2017-05-13T17:29:16.571754291 4.925231s info: Table e9eced5f-39f5-432e-a7be-3100ef09383a: This server is Raft leader for term 3. Latest log index is 6.
+2017-05-14T20:31:50.600747119 5.351582s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-05-14T20:31:50.604473019 5.355310s notice: Running on Linux 4.4.0-77-generic x86_64
+2017-05-14T20:31:50.604530659 5.355366s notice: Loading data from directory /home/bregy/PycharmProjects/CCProject/rethinkdb_data
+2017-05-14T20:31:50.627988666 5.378824s info: Automatically using cache size of 2960 MB
+2017-05-14T20:31:50.628939456 5.379775s notice: Listening for intracluster connections on port 29015
+2017-05-14T20:31:50.747810213 5.498646s notice: Listening for client driver connections on port 28015
+2017-05-14T20:31:50.749714234 5.500550s notice: Listening for administrative HTTP connections on port 8080
+2017-05-14T20:31:50.749715665 5.500551s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-14T20:31:50.749718592 5.500554s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-14T20:31:50.749721022 5.500556s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-14T20:31:50.749731302 5.500566s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-14T20:31:50.749733052 5.500568s notice: Server ready, "TuringLambdaMachine_aen" 73e777a5-8f5e-4325-87a9-680d6136f673
+2017-05-14T20:31:52.337567392 7.088403s info: Table e9eced5f-39f5-432e-a7be-3100ef09383a: Starting a new Raft election for term 4.
+2017-05-14T20:31:52.340502709 7.091338s info: Table e9eced5f-39f5-432e-a7be-3100ef09383a: This server is Raft leader for term 4. Latest log index is 9.
+2017-05-24T17:20:40.969080058 0.063495s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-05-24T17:20:40.972439763 0.066857s notice: Running on Linux 4.4.0-78-generic x86_64
+2017-05-24T17:20:40.972488452 0.066903s notice: Loading data from directory /home/bregy/PycharmProjects/CCProject/rethinkdb_data
+2017-05-24T17:20:40.992634418 0.087049s info: Automatically using cache size of 3636 MB
+2017-05-24T17:20:40.993449271 0.087864s notice: Listening for intracluster connections on port 29015
+2017-05-24T17:20:41.018429457 0.112844s notice: Listening for client driver connections on port 28015
+2017-05-24T17:20:41.018732448 0.113147s notice: Listening for administrative HTTP connections on port 8080
+2017-05-24T17:20:41.018733569 0.113148s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-24T17:20:41.018733991 0.113149s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-24T17:20:41.018736409 0.113151s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-05-24T17:20:41.018743706 0.113158s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-24T17:20:41.018745815 0.113161s notice: Server ready, "TuringLambdaMachine_aen" 73e777a5-8f5e-4325-87a9-680d6136f673
+2017-05-24T17:20:42.656738807 1.751154s info: Table e9eced5f-39f5-432e-a7be-3100ef09383a: Starting a new Raft election for term 5.
+2017-05-24T17:20:42.661173940 1.755589s info: Table e9eced5f-39f5-432e-a7be-3100ef09383a: This server is Raft leader for term 5. Latest log index is 12.
