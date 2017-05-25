@@ -3,6 +3,9 @@ var urlConnection = "http://localhost:4600";
 var MixerState;
 var LocalState = [[],[],[],[],[],[],[],[],[],[]];
 
+var GlobalState = [[],[],[],[],[],[],[],[],[],[]];
+
+
 var updateFreq = 10;
 /*
 $.get(urlConnection + "/echoes/api/mixer-current-state", function(data) {
@@ -34,6 +37,8 @@ $.get(urlConnection + "/echoes/api/mixer-current-state", function(data) {
 		//dataType : 'json',
 		data: {"content": JSON.stringify(LocalState)},
 		success: function(data) {
+			var onlineState = JSON.parse(data);
+			GlobalState = onlineState;
 	      	//MixerState = data;
 	      	//console.log(MixerState);
 		},

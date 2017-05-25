@@ -66,5 +66,9 @@ function Note(position, initStatus, colorAcc) {
 			}
 		}
 	}
+
+	this.setState = function(state) {
+		this.state = state;
+	}
 }
 

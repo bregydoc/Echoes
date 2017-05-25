@@ -83,7 +83,33 @@ function Synth(size) {
 		}
 	}
 
+	/*
+	this.setState = function(state) {
+
+		console.log(this.notes);
+
+		for (var i=0;i<this.numOfLineTimes;i++) {
+
+			for (var j=0;j<10;j++) {
+				if (state[i].includes(j)) {
+					//this.notes[i*10 + state[i][j]].setState(true);
+					console.log(i*10 + state[i][j], "as", true);
+				}else{
+					//console.log(i*10 + state[i][j], "as", false);
+
+					//this.notes[i*10 + state[i][j]].setState(false);
+				}
+				
+			}
+
+ 		}
+	}
+	*/
+
 	this.draw = function() {
+
+		//this.setState([[1,2,3], [1,2,0]]);
+		
 		for (var i=0;i<this.notes.length;i++) {
 			this.notes[i].draw();
 		}		
